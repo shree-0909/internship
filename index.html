@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>JPG TO PDF MAKER</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/52a3930a81.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="favicon.ico">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+</head>
+
+<body>
+
+  <nav id="navbar" class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">pdf converter</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!--
+  <div class="top-container">
+
+  </div> -->
+  <div class="middle-container">
+    <h1>JPG to PDF CONVERTOR</h1>
+    <h2>Convert JPG images to PDF in seconds.</h2>
+  </div>
+  <!-- <span>Select JPG images</span> -->
+  <!-- <button type="button" class="btn btn-success btn-lg big-btn"><h1>Select JPG images</h1></button> -->
+  <!-- <button class="button" style="vertical-align:middle"><span>Select JPG Images </span></button> -->
+  <button id="button" class="button" style="vertical-align:middle"><span>Download PDF </span></button>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <form method="post" action="#" id="#">
+          <div class="form-group files color">
+            <!-- <input type="file" class="form-control" multiple=""> -->
+            <!-- <input type="file" id="imageFile">
+                <canvas id="canvas"></canvas> -->
+            <input type='file' id="fileUpload" />
+            <center>
+                <canvas id="canvas" width="800px" height="1000px"></canvas>
+            </center>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="bottom-container ">
+    <a class="footer-link" href="https://www.linkedin.com/in/shrey-binduraj-644b461b2"><i class="fab fa-linkedin"></i> LinkedIn</a>
+    <a class="footer-link" href=""><i class="fab fa-500px"></i> Photography</a>
+    <a class="footer-link" href="https://github.com/shree-0909"><i class="fab fa-github"></i> GitHub</a>
+    <p class="ending">© 2020 Shrey Binduraj</p>
+  </div>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js" charset="utf-8"></script>
+
+
+</html>
